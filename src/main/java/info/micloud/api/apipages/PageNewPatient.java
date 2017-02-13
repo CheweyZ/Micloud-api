@@ -4,14 +4,13 @@ import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
+import java.sql.Statement;
 import java.text.ParseException;
 import java.util.Date;
 import java.util.List;
 import java.util.Map;
 
 import org.json.JSONObject;
-
-import com.mysql.cj.api.jdbc.Statement;
 
 import info.micloud.api.database.BloodType;
 import info.micloud.api.database.ConnectionPool;

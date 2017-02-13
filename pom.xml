@@ -4,13 +4,23 @@
   <artifactId>micloud</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <name>MiCloud-Lambda-API</name>
-  <description>The MiCloud API, written for support with Lambda</description>
+  <description>The MiCloud API, in the future to be written for support with AWS's Lambda</description>
   <dependencies>
-  	<dependency>
+  	<!-- <dependency>
   		<groupId>com.amazonaws</groupId>
   		<artifactId>aws-lambda-java-core</artifactId>
   		<version>1.1.0</version>
-  	</dependency>
+  	</dependency>-->
+  	<dependency>
+    	<groupId>org.json</groupId>
+    	<artifactId>json</artifactId>
+    	<version>20160810</version>
+	</dependency>
+	<dependency>
+    	<groupId>io.netty</groupId>
+    	<artifactId>netty-all</artifactId>
+    	<version>4.1.8.Final</version>
+	</dependency>
   </dependencies>
   <build>
   	<plugins>
